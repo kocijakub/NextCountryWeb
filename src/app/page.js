@@ -12,7 +12,7 @@ export default async function Home() {
   return (
     <main className={styles.main}>
       <h1 className={styles.header}>
-        Countries
+        Countries - new deploy
       </h1>
       <div className={styles.cards}>
           {data.map( item => {
