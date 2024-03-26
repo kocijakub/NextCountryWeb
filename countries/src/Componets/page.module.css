@@ -1,0 +1,36 @@
+.card{
+    width: 350px;
+    padding: 15px;
+    background-color: white;
+    border: #e0e1e3 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.card *{
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.flag{
+    width: 100px;
+    height: fit-content;
+    border: #b3b3b5 1px solid;
+    box-shadow: #878787  0 0 10px;
+    margin-bottom: 50px;
+}
+#flag{
+    width: 300px;
+}
+.infoP{
+    margin: 0;
+}
+.titles{
+    color: grey;
+    margin: 0;
+    padding: 20px 0 0 0;
+}

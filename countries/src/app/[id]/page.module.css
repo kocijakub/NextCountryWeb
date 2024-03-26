@@ -1,0 +1,12 @@
+.card{
+    margin: 20px auto;
+    width: 70vw;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: #d2d2d2 0 0 5px;
+}
+.card *{
+    background-color: white;
+}
