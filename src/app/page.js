@@ -16,7 +16,7 @@ export default async function Home() {
       </h1>
       <div className={styles.cards}>
           {data.map( item => {
-              return <Card name={item.name.common} flag={item.flags.svg} population={item.population} region={item.region}/>
+              return <Card key={item.name.common} name={item.name.common} flag={item.flags.svg} population={item.population} region={item.region}/>
           })}
       </div>
     </main>
