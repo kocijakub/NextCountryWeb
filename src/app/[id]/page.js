@@ -18,7 +18,7 @@ export default async function page({ params }){
             <div>
                 {cards.map(item =>{
                     return <FullCard key={item.name.common} name={item.name.common} flag={item.flags.svg} region={item.region} ofName={item.name.official}
-                                     capital={item.capital} status={item.status} time={item.timezones}
+                                     capital={item.capital} status={item.status}
                     />
                 })}
             </div>
